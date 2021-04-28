@@ -21,7 +21,6 @@ function reverse(str) {
   // }
   // return reversed; 
   // Solution #3 
- 
   return str.split('').reduce((rev, char) => char + rev, '');
 }
 reverse('asdf'); 
